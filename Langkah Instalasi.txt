@@ -1,0 +1,13 @@
+Instalasi Capstone Pendidikan :
+
+*Instalsi menggunakan VM + Docker Container
+1. Buat VM menggunakan Image Linux (bebas mau os apa), recommend Ubuntu 20.0 LTS
+2. Akses VM melalui CMD/Putty atau terminal lainnya ( SSH username@ip )
+3. Lakukan Update repository dengan perintah "sudo apt update"
+4. Lakukan instalasi Docker dengan perintah "sudo apt install docker.io"
+5. Lakukan download file script Moode melalui perintah "curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-moodle/master/docker-compose.yml > docker-compose.yml"
+6. Lakukan Instalasi tools docker-compose dengan perintah "sudo apt install docker-compose"
+7. Lakukan eksekusi script dengna perintah "sudo docker-compose up -d"
+8. Tunggu sampai eksekusi selesai
+9. Akses web LMS Moodle dengan melalui IP
+10. lakukan seting DNS sesuai peyedia DNS masing masing
